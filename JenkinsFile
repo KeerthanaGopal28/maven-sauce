@@ -23,7 +23,7 @@ pipeline{
       }
       stage('Run Application'){
          steps{
-             sh 'java -jar target/maven-app-jenkin-1.0-SNAPSHOT.jar'
+             sh 'java -jar target/MyMavenSeleniumApp1-1.0-SNAPSHOT.jar'
          }
       }
    }
