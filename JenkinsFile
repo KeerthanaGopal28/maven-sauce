@@ -7,8 +7,8 @@ pipeline{
    stages{
       stage('Checkout'){
          steps{
-          git branch:'master',
-          url:'https://github.com/KeerthanaGopal28/maven-hello-world2.git'
+          git branch:'main',
+          url:'https://github.com/KeerthanaGopal28/maven-sauce.git'
          }     
       }
       stage('Build'){
